@@ -1,0 +1,140 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 54px;
+}
+
+.comment-box-container {
+  box-shadow: 1px 0px 4px -1px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 990px;
+
+  height: 800px;
+  overflow: auto;
+}
+
+.bg-container {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    flex-direction: column;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.textarea-box {
+  height: 180px;
+  padding: 8px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 20px;
+  border: 1px solid #cbd2d9;
+  border-radius: 10px;
+  outline: none;
+}
+
+.comment-image {
+  width: 500px;
+  margin-left: 40px;
+}
+@media screen and (max-width: 578px) {
+  .comment-image {
+    width: 150px;
+  }
+}
+
+.comment-box-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  color: #475569;
+}
+
+.from {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box {
+  padding: 8px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  color: #475569;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+  outline: none;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #0284c7;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.comment-container {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  color: #475569;
+}
+
+.count-container {
+  color: #ffffff;
+  margin-right: 14px;
+  background-color: #0284c7;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.line {
+  border: 1px solid #cbd2d9;
+}
+
+.image-container {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .image-container {
+    margin-top: 30px;
+    order: -1;
+  }
+}
+
+.comment-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
